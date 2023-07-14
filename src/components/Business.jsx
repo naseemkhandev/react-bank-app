@@ -1,6 +1,8 @@
 import { FaStar } from "react-icons/fa";
 import { MdOutlineSecurity } from "react-icons/md";
 import { GiBanknote } from "react-icons/gi";
+import CommonButton from "./CommonButton";
+import CommonTitle from "./CommonTitle";
 
 const BusinessCard = (props) => {
   const { icon, title, desc } = props;
@@ -11,7 +13,9 @@ const BusinessCard = (props) => {
           <span className="text-2xl ss:text-[2rem] text-secondary">{icon}</span>
         </div>
         <div className="flex flex-col gap-1">
-          <h3 className="text-white text-base sm:text-lg font-semibold">{title}</h3>
+          <h3 className="text-white text-base sm:text-lg font-semibold">
+            {title}
+          </h3>
           <p className="text-dimWhite text-xs sm:text-base">{desc}</p>
         </div>
       </div>
@@ -21,23 +25,16 @@ const BusinessCard = (props) => {
 
 const Business = () => {
   return (
-    <section className="font-poppins py-10 md:py-20">
-      <div className="flex items-center flex-col md:flex-row gap-10 ss:gap-16 justify-between">
+    <section className="font-poppins pb-10 md:py-16">
+      <div className="flex items-center flex-col md:flex-row gap-10 md:gap-10 ss:gap-16 justify-between">
         <div className="flex flex-col gap-8 ss:gap-12 flex-1">
-          <h1 className="text-3xl ss:text-4xl md:text-5xl leading-normal font-semibold">
-            You do the business, we&apos;ll handle the money.
-          </h1>
+          <CommonTitle title="You do the business, we'll handle the money." />
           <p className="text-dimWhite text-base sm:text-lg">
             With the right credit card, you can improve your financial life by
             building credit, earning rewards and saving money. But with hundreds
             of credit cards on the market.
           </p>
-          <button
-            type="button"
-            className="p-4 sm:p-5 rounded-lg w-fit capitalize bg-blue-gradient text-primary"
-          >
-            <span>get started</span>
-          </button>
+          <CommonButton btnText="get started" />
         </div>
 
         <div className="flex flex-col gap-5 flex-1">

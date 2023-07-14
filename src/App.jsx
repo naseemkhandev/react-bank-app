@@ -2,6 +2,7 @@ import Bill from "./components/Bill";
 import Business from "./components/Business";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import PaymentMethod from "./components/PaymentMethod";
 import Stats from "./components/Stats";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         </div>
         <Business />
         <Bill />
+        <PaymentMethod />
       </div>
     </div>
   );

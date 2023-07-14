@@ -1,9 +1,10 @@
 import { appstore, bill, playstore } from "../assets";
+import CommonTitle from "./CommonTitle";
 
 const Bill = () => {
   return (
-    <section className="font-poppins py-10">
-      <div className="flex flex-col md:flex-row gap-5">
+    <section className="font-poppins py-10 sm:py-16">
+      <div className="flex flex-col md:flex-row gap-10 md:gap-5">
         <div className="flex-1">
           <img
             src={bill}
@@ -13,9 +14,7 @@ const Bill = () => {
         </div>
 
         <div className="flex flex-col gap-5 md:gap-10 flex-1">
-          <h2 className="text-3xl xs:text-4xl leading-normal ss:text-[2.7rem]  md:text-[3.2rem] font-semibold">
-            Easily control your billing & invoicing
-          </h2>
+          <CommonTitle title="Easily control your billing & invoicing" />
           <p className="text-dimWhite leading-relaxed text-sm xs:text-base ss:text-lg">
             How much money do you leave on the table each month? Too many
             businesses “forget” to bill all hours worked. With HooBank, you can
