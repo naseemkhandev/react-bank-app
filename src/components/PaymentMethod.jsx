@@ -1,4 +1,4 @@
-import { payment } from "../assets";
+import { bill } from "../assets";
 import CommonButton from "./CommonButton";
 import CommonTitle from "./CommonTitle";
 import { FaStar } from "react-icons/fa";
@@ -30,7 +30,7 @@ const PaymentMethod = () => {
 
         <div className="flex-1">
           <img
-            src={payment}
+            src={bill}
             alt="card payment method"
             className="w-full h-full object-contain"
           />
