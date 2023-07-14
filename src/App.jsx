@@ -1,3 +1,4 @@
+import Bill from "./components/Bill";
 import Business from "./components/Business";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ const App = () => {
           <Stats number="$230M" title="TRANSACTION" />
         </div>
         <Business />
+        <Bill />
       </div>
     </div>
   );
