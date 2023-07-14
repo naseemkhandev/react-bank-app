@@ -1,4 +1,4 @@
-import { bill } from "../assets";
+import { card } from "../assets";
 import CommonButton from "./CommonButton";
 import CommonTitle from "./CommonTitle";
 import { FaStar } from "react-icons/fa";
@@ -21,7 +21,7 @@ const PaymentMethod = () => {
         <div className="flex flex-col gap-7 sm:gap-10 flex-1">
           <CommonTitle title="Find a better card deal in few easy steps." />
           <div className="flex flex-col gap-3">
-            <Steps title="Choose the billing type that suits your needs" />
+            <Steps title="Choose the carding type that suits your needs" />
             <Steps title="Don't double entry, interconnect to your accounting system" />
             <Steps title="Speed up month-end closing with a rigorous invoicing process" />
           </div>
@@ -30,7 +30,7 @@ const PaymentMethod = () => {
 
         <div className="flex-1">
           <img
-            src={bill}
+            src={card}
             alt="card payment method"
             className="w-full h-full object-contain"
           />

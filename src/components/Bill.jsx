@@ -15,7 +15,7 @@ const Bill = () => {
 
         <div className="flex flex-col gap-5 md:gap-10 flex-1">
           <CommonTitle title="Easily control your billing & invoicing" />
-          <p className="text-dimWhite leading-relaxed text-sm xs:text-base ss:text-lg">
+          <p className="text-dimWhite leading-relaxed text-base ss:text-lg">
             How much money do you leave on the table each month? Too many
             businesses “forget” to bill all hours worked. With HooBank, you can
             keep track of any invoices, generate them more quickly and bill any
@@ -23,7 +23,7 @@ const Bill = () => {
             explore new pricing models and compare their viability. Stop the
             revenue leakage and scale your business at full speed!
           </p>
-          <p className="text-dimWhite mt-5 text-sm xs:text-base ss:text-lg">
+          <p className="text-dimWhite mt-5 text-base ss:text-lg">
             Cash is king, so get it in the bank sooner!
           </p>
           <div className="flex items-center gap-5">
