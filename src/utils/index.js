@@ -45,3 +45,69 @@ export const testimonials = [
     title: "Founder & Leader",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Content",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "How it Works",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Create",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Explore",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Terms & Services",
+        link: "https://naseemkhan.vercel.app/",
+      },
+    ],
+  },
+  {
+    title: "Community",
+    links: [
+      {
+        name: "Help Center",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Partners",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Suggestions",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Blog",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://naseemkhan.vercel.app/",
+      },
+    ],
+  },
+  {
+    title: "Partner",
+    links: [
+      {
+        name: "Our Partner",
+        link: "https://naseemkhan.vercel.app/",
+      },
+      {
+        name: "Become a Partner",
+        link: "https://naseemkhan.vercel.app/",
+      },
+    ],
+  },
+];

@@ -32,7 +32,7 @@ const Bill = () => {
           </div>
         </div>
       </div>
-      <div className="absolute w-[25%] h-[60%] rounded-full -left-96 top-20 pink__gradient"></div>
+      <div className="absolute w-[20%] h-[60%] rounded-full left-0 top-20 pink__gradient"></div>
     </section>
   );
 };
