@@ -1,5 +1,5 @@
 import { FcMenu } from "react-icons/fc";
-import { navLinks } from "../constants/index";
+import { navLinks } from "../utils/index";
 import { useState } from "react";
 
 const Navbar = () => {
