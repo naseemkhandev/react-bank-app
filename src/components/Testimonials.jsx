@@ -10,13 +10,13 @@ const Testimonials = () => {
           Everything you need to accept card payments and grow your business
           anywhere on the planet.
         </p>
-        <div className="grid ss:grid-cols-2 md:grid-cols-3 gap-10 mt-10 sm:mt-16">
+        <div className="grid ss:grid-cols-2 md:grid-cols-3 gap-10 ss:gap-5 sm:gap-10 mt-10 sm:mt-16">
           {testimonials.map((item) => {
             const { id, about, image, name, title } = item;
             return (
               <div
                 key={id}
-                className="flex flex-col gap-10 feature-card rounded-2xl px-10 ss:px-6 sm:px-10 md:px-6 py-10 lg:px-10"
+                className="flex flex-col gap-10 feature-card rounded-2xl px-5 sm:px-10 md:px-6 py-10 ss:py-14 lg:px-10"
               >
                 <RiDoubleQuotesL className="text-5xl text-secondary" />
                 <p className="leading-normal text-base text-dimWhite">
@@ -37,7 +37,7 @@ const Testimonials = () => {
             );
           })}
         </div>
-        <div className="absolute w-[30%] h-[50%] rounded-full -right-10 top-40 blue__gradient"></div>
+        <div className="absolute w-[20%] h-[40%] rounded-full right-0 top-40 blue__gradient"></div>
       </div>
     </section>
   );

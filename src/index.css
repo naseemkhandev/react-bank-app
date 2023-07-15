@@ -18,10 +18,6 @@
   scroll-behavior: smooth;
 }
 
-body{
-  overflow-x: hidden;
-}
-
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -141,4 +137,50 @@ body{
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.social-name {
+  width: 0;
+}
+
+.social-icon:hover .social-name {
+  width: 11rem;
+}
+
+.social-icon:hover .social-name:nth-child(1) {
+  color: #24292f;
+}
+.social-icon:hover .social-name:nth-child(n + 1) {
+  color: #0a66c2;
+}
+.social-icon:hover .social-name:nth-child(n + 2) {
+  color: #16c575;
+}
+.social-icon:hover .social-name:nth-child(n + 3) {
+  color: #14a905;
+}
+.social-icon:hover .social-name:nth-child(n + 4) {
+  color: #32abff;
+}
+
+.social-media-icon {
+  background-color: white;
+}
+.social-icon:hover .social-media-icon {
+  color: white;
+}
+.social-icon:hover .social-media-icon:nth-child(1) {
+  background-color: #24292f;
+}
+.social-icon:hover .social-media-icon:nth-child(2) {
+  background-color: #0a66c2;
+}
+.social-icon:hover .social-media-icon:nth-child(3) {
+  background-color: #16c575;
+}
+.social-icon:hover .social-media-icon:nth-child(4) {
+  background-color: #14a905;
+}
+.social-icon:hover .social-media-icon:nth-child(5) {
+  background-color: #32abff;
 }
