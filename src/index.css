@@ -18,6 +18,10 @@
   scroll-behavior: smooth;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

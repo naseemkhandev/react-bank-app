@@ -3,7 +3,9 @@ import Business from "./components/Business";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import PaymentMethod from "./components/PaymentMethod";
+import ServiceCard from "./components/ServiceCard";
 import Stats from "./components/Stats";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Business />
         <Bill />
         <PaymentMethod />
+        <Testimonials />
+        <ServiceCard />
       </div>
     </div>
   );

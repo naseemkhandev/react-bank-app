@@ -3,7 +3,7 @@ import CommonTitle from "./CommonTitle";
 
 const Bill = () => {
   return (
-    <section className="font-poppins py-10 sm:py-16">
+    <section className="relative font-poppins py-10 sm:py-16">
       <div className="flex flex-col md:flex-row gap-10 md:gap-5">
         <div className="flex-1">
           <img
@@ -32,6 +32,7 @@ const Bill = () => {
           </div>
         </div>
       </div>
+      <div className="absolute w-[25%] h-[60%] rounded-full -left-96 top-20 pink__gradient"></div>
     </section>
   );
 };
