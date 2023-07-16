@@ -3,7 +3,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import CommonTitle from "./CommonTitle";
 const Testimonials = () => {
   return (
-    <section className="relative font-poppins md:py-16 py-10">
+    <section id="clients" className="relative font-poppins md:py-16 py-10">
       <div>
         <CommonTitle title="What People are saying about us" />
         <p className="text-dimWhite md:text-lg text-base">

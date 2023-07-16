@@ -7,9 +7,9 @@ const ScrollTop = () => {
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset >= 180) {
-        arrow.current.classList.add("right-12");
+        arrow.current.classList.add("right-10");
       } else {
-        arrow.current.classList.remove("right-12");
+        arrow.current.classList.remove("right-10");
       }
     };
   }, []);
@@ -25,7 +25,7 @@ const ScrollTop = () => {
     <div className="overflow-hidden">
       <button
         aria-label="arrow"
-        className={`fixed bottom-10 z-30 -right-full transition-all duration-500 shadow-2xl shadow-black bg-white hover:rounded-full active:p-[.45rem] p-2 rounded`}
+        className={`fixed bottom-6 ss:bottom-10 z-30 -right-full transition-all duration-500 shadow-2xl shadow-black bg-white hover:bg-[#cdcdcd] active:p-[.45rem] p-2 rounded`}
         onClick={scrollToTop}
         ref={arrow}
       >

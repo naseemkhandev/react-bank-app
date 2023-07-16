@@ -25,7 +25,7 @@ const BusinessCard = (props) => {
 
 const Business = () => {
   return (
-    <section className="font-poppins pb-10 md:py-16">
+    <section id="features" className="font-poppins pb-10 md:py-16">
       <div className="flex items-center flex-col md:flex-row gap-10 md:gap-10 ss:gap-16 justify-between">
         <div className="flex flex-col gap-8 ss:gap-12 flex-1">
           <CommonTitle title="You do the business, we'll handle the money." />

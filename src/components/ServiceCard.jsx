@@ -1,11 +1,6 @@
-import {
-  BiLogoEbay,
-  BiLogoDigg,
-  BiLogoVisa,
-  BiLogoDjango,
-  BiLogoWix,
-} from "react-icons/bi";
+import { BiLogoEbay, BiLogoVisa, BiLogoWix } from "react-icons/bi";
 import { IoLogoDropbox, IoLogoPlaystation } from "react-icons/io";
+import { TbBrandMeta, TbBrandHbo } from "react-icons/tb";
 import CommonTitle from "./CommonTitle";
 import CommonButton from "./CommonButton";
 
@@ -15,9 +10,9 @@ const ServiceCard = () => {
       <div className="flex flex-col gap-10">
         <div className="brands-logo flex items-center sm:flex-nowrap flex-wrap w-full gap-10 text-6xl xs:text-7xl ss:text-8xl justify-center sm:text-[130px] text-[#5f5f5fb8] cursor-pointer">
           <BiLogoEbay className="hover:text-white" />
-          <BiLogoDigg className="hover:text-white" />
+          <TbBrandHbo className="hover:text-white" />
           <BiLogoVisa className="hover:text-white" />
-          <BiLogoDjango className="hover:text-white" />
+          <TbBrandMeta className="hover:text-white" />
           <BiLogoWix className="hover:text-white" />
           <IoLogoDropbox className="hover:text-white" />
           <IoLogoPlaystation className="hover:text-white" />

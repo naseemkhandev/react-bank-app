@@ -3,7 +3,10 @@ import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section className="flex md:items-center flex-col md:flex-row gap-10 md:gap-0">
+    <section
+      id="home"
+      className="flex md:items-center flex-col md:flex-row gap-10 md:gap-0"
+    >
       <div className="flex flex-col gap-5 flex-1 pr-10 md:pr-0">
         <div className="flex items-center gap-2 font-poppins bg-discount-gradient py-2 px-3 xs:px-5 text-lg rounded-xl w-[100%] xs:w-fit">
           <img src={discount} alt="discount" />

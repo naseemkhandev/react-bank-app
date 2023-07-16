@@ -16,7 +16,7 @@ const Steps = ({ title }) => {
 
 const PaymentMethod = () => {
   return (
-    <section className="py-10 sm:py-16 font-poppins">
+    <section id="product" className="py-10 sm:py-16 font-poppins">
       <div className="flex md:flex-row flex-col gap-10">
         <div className="flex flex-col gap-7 sm:gap-10 flex-1">
           <CommonTitle title="Find a better card deal in few easy steps." />

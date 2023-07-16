@@ -5,11 +5,11 @@ import { TbBrandFiverr } from "react-icons/tb";
 const SocialMedia = ({ icon, name, link }) => {
   return (
     <a href={link} className="relative social-icon">
-      <span className="hidden ss:block social-name text-base font-[500] capitalize bg-white text-black rounded-full transition-all py-[0.9rem] px-[1.6rem] hover:px-16 cursor-pointer z-1 overflow-hidden">
-        {name}
-      </span>
       <span className="social-media-icon mt-8 ss:mt-0 p-3 xs:py-4 xs:px-4 ss:px-[1.03rem] text-black block rounded-full z-2 ss:absolute top-1/2 left-0 -translate-y-1/2">
         {icon}
+      </span>
+      <span className="hidden ss:block social-name text-base font-[500] capitalize bg-white text-black rounded-full transition-all py-[0.9rem] px-[1.6rem] hover:px-16 cursor-pointer z-1 overflow-hidden">
+        {name}
       </span>
     </a>
   );
