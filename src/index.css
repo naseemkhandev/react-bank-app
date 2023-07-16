@@ -81,8 +81,8 @@
 }
 
 .sidebar {
-  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-top {
@@ -145,6 +145,7 @@
 
 .social-icon:hover .social-name {
   width: 11rem;
+  padding-left: 4rem;
 }
 
 .social-icon:hover .social-name:nth-child(1) {
@@ -172,10 +173,10 @@
 .social-icon:hover .social-media-icon:nth-child(1) {
   background-color: #24292f;
 }
-.social-icon:hover .social-media-icon:nth-child(2) {
+.social-icon:hover .social-media-icon:nth-child(n + 1) {
   background-color: #0a66c2;
 }
-.social-icon:hover .social-media-icon:nth-child(3) {
+.social-icon:hover .social-media-icon:nth-child(n + 2) {
   background-color: #16c575;
 }
 .social-icon:hover .social-media-icon:nth-child(4) {
